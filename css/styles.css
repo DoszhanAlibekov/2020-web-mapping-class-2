@@ -1,0 +1,55 @@
+/* apply these rules to the entire body
+ */
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+/* apply these rules to the thing with id album-list
+ */
+#album-list {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  text-align: left;
+}
+
+/* apply these rules to the thing with id album-art
+ */
+#album-art {
+  width: 50%;
+  height: 300px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* apply these rules to all things with class album-list-item
+ */
+.album-list-item {
+   border: 1px solid #ccc;
+   padding: 8px;
+   border-radius: 6px;
+   margin-bottom: 10px;
+}
+
+/* when a thing with class album-list-item is hovered, apply these rules */
+
+.album-list-item:hover {
+   background-color: #eee;
+   cursor: pointer;
+}
+
+
+
+/* select all p tags that have class artist-name
+ */
+p {
+  margin: 0;
+}
+
+/* select things with class album-name that are within things with class album-list-item */
+
+.album-list-item .album-name {
+  font-size: .7rem
+}
