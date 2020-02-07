@@ -22,6 +22,7 @@ body {
   display: inline-block;
   background-size: contain;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* apply these rules to all things with class album-list-item
